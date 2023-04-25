@@ -9,7 +9,7 @@ Joonhyun Jeong, Sungmin Cha, Youngjoon Yoo, Sangdoo Yun, Taesup Moon, Jongwon Ch
 Image-mixing augmentations (e.g., Mixup and CutMix), which typically involve mixing two
 images, have become the de-facto training techniques for image classification. Despite their huge success in image classification, the number of images to be mixed has not been elucidated in the literature: only the naive K-image expansion has been shown to lead to performance degradation. This study derives a new K-image mixing augmentation based on the stick-breaking process under Dirichlet prior distribution. We demonstrate the superiority of our K-image expansion augmentation over conventional two-image mixing augmentation methods through extensive experiments and analyses: 1) more robust and generalized classifiers; 2) a more desirable loss landscape shape; 3) better adversarial robustness. Moreover, we show that our probabilistic model can measure the sample-wise uncertainty and boost the efficiency for network architecture search by achieving a 7-fold reduction in the search time.
 
-<img src="figures/cifar.png" width="80%">
+<img src="figures/cifar.png" width="50%">
 <img src="figures/loss_surface.png" width="80%">
 
 ## Getting Started
